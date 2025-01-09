@@ -1,0 +1,63 @@
+{
+    "itens": [
+        {
+            "nome": "Camiseta Azul",
+            "tipo": "Camiseta",
+            "tamanho": "M",
+            "cor": "Azul",
+            "tecido": "Algod\u00e3o",
+            "estilo": "Casual"
+        },
+        {
+            "nome": "Cal\u00e7a Jeans",
+            "tipo": "Cal\u00e7a",
+            "tamanho": "M",
+            "cor": "Azul Escuro",
+            "tecido": "Jeans",
+            "estilo": "Casual"
+        },
+        {
+            "nome": "Jaqueta Preta",
+            "tipo": "Jaqueta",
+            "tamanho": "G",
+            "cor": "Preto",
+            "tecido": "Couro",
+            "estilo": "Estiloso"
+        },
+        {
+            "nome": "Pijama Nerd",
+            "tipo": "Camiseta",
+            "tamanho": "G",
+            "cor": "Cinza Claro",
+            "tecido": "Algod\u00e3o",
+            "estilo": "Pijama"
+        }
+    ],
+    "looks": [
+        {
+            "nome": "Look Casual",
+            "descricao": "Um look confort\u00e1vel para o dia a dia",
+            "roupas": [
+                "Camiseta Azul",
+                "Cal\u00e7a Jeans",
+                "Jaqueta Preta"
+            ]
+        },
+        {
+            "nome": "Sem cal\u00e7a",
+            "descricao": "Caraio, cade minha cal\u00e7a",
+            "roupas": [
+                "Camiseta Azul",
+                "Jaqueta Preta"
+            ]
+        },
+        {
+            "nome": "Cade Minha Cal\u00e7a",
+            "descricao": "Caraio Perdi Dnv",
+            "roupas": [
+                "Camiseta Azul",
+                "Jaqueta Preta"
+            ]
+        }
+    ]
+}
