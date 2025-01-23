@@ -1,85 +1,85 @@
-Gerenciador de Armário
+**Gerenciador de Armário**
 
-Descrição
+**Descrição**
 
 O Gerenciador de Armário é uma aplicação desenvolvida em Python utilizando a biblioteca Tkinter para criar uma interface gráfica intuitiva. Ele permite gerenciar itens de vestuário e looks, além de carregar e salvar os dados em arquivos JSON. A interface é dividida em abas para facilitar a navegação e organização das funcionalidades.
 
-Funcionalidades
+**Funcionalidades**
 
-Aba "Itens"
+- Aba "Itens"
 
-Adicionar Item: Adiciona uma nova roupa ao armário com detalhes como nome, tipo, tamanho, cor, tecido e estilo.
+    1. Adicionar Item: Adiciona uma nova roupa ao armário com detalhes como nome, tipo, tamanho, cor, tecido e estilo.
 
-Listar Itens: Exibe uma lista de todos os itens cadastrados no armário.
+    2. Listar Itens: Exibe uma lista de todos os itens cadastrados no armário.
 
-Buscar Item: Permite buscar um item específico pelo nome.
+    3. Buscar Item: Permite buscar um item específico pelo nome.
 
-Editar Item: Atualiza as informações de um item existente.
+    4. Editar Item: Atualiza as informações de um item existente.
 
-Remover Item: Remove um item do armário e exclui todos os looks associados a ele.
+    5. Remover Item: Remove um item do armário e exclui todos os looks associados a ele.
 
-Aba "Looks"
+- Aba "Looks"
 
-Criar Look: Cria um novo look combinando itens existentes no armário.
+    1. Criar Look: Cria um novo look combinando itens existentes no armário.
 
-Listar Looks: Exibe uma lista de todos os looks criados.
+    2. Listar Looks: Exibe uma lista de todos os looks criados.
 
-Buscar Look: Permite buscar um look específico pelo nome.
+    3. Buscar Look: Permite buscar um look específico pelo nome.
 
-Editar Look: Atualiza as informações de um look existente.
+    4. Editar Look: Atualiza as informações de um look existente.
 
-Remover Look: Remove um look do armário.
+    5. Remover Look: Remove um look do armário.
 
-Aba "Gerenciamento"
+- Aba "Gerenciamento"
 
-Salvar Armário em JSON: Exporta os itens e looks do armário para um arquivo JSON.
+    1. Salvar Armário em JSON: Exporta os itens e looks do armário para um arquivo JSON.
 
-Carregar Armário de JSON: Importa itens e looks de um arquivo JSON para o armário.
+    2. Carregar Armário de JSON: Importa itens e looks de um arquivo JSON para o armário.
 
-Requisitos
+- Requisitos
 
-Python 3.7 ou superior
+    1. Python 3.7 ou superior
 
-Bibliotecas Python:
+    2. Bibliotecas Python:
 
-Tkinter (incluída por padrão na instalação do Python)
+    3. Tkinter (incluída por padrão na instalação do Python)
 
-JSON (incluída por padrão na instalação do Python)
+    4. JSON (incluída por padrão na instalação do Python)
 
-Como Executar
+**Como Executar**
 
-Clone ou baixe este repositório.
+- Clone ou baixe este repositório.
 
-Navegue até o diretório do projeto no terminal.
+- Navegue até o diretório do projeto no terminal.
 
-Execute o seguinte comando:
+- Execute o seguinte comando:
 
-python LookCre.py
+- python LookCre.py
 
-A interface do Gerenciador de Armário será exibida.
+- A interface do Gerenciador de Armário será exibida.
 
-Layout da Interface
+**Layout da Interface**
 
-A interface é composta por um Notebook com três abas:
+- A interface é composta por um Notebook com três abas:
 
-Itens: Focado no gerenciamento de roupas individuais.
+- Itens: Focado no gerenciamento de roupas individuais.
 
-Looks: Voltado para a criação e edição de combinações.
+- Looks: Voltado para a criação e edição de combinações.
 
-Gerenciamento: Para carregar e salvar o armário em arquivos JSON.
+- Gerenciamento: Para carregar e salvar o armário em arquivos JSON.
 
-A janela abre centralizada na tela para melhorar a experiência do usuário.
+- A janela abre centralizada na tela para melhorar a experiência do usuário.
 
-Estrutura do Projeto
+**Estrutura do Projeto**
 
-LookCre.py: Arquivo principal contendo a lógica do armário, interface gráfica e manipulação de arquivos JSON.
+- LookCre.py: Arquivo principal contendo a lógica do armário, interface gráfica e manipulação de arquivos JSON.
 
-Melhorias Futuras
+**Melhorias Futuras**
 
-Adição de filtros para busca de itens e looks.
+- Adição de filtros para busca de itens e looks.
 
-Visualização de looks com imagens dos itens.
+- Visualização de looks com imagens dos itens.
 
-Integração com banco de dados para armazenamento persistente.
+- Integração com banco de dados para armazenamento persistente.
 
 
