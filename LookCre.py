@@ -257,7 +257,6 @@ class ArmarioApp:
             janela.title("Remover Item")
 
             ttk.Label(janela, text="Selecione um item para remover:", font=("Arial", 12)).pack(pady=10)
-
             frame_lista = ttk.Frame(janela)
             frame_lista.pack(padx=10, pady=10)
 
